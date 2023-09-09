@@ -32,13 +32,32 @@ header{
     transition: all 0.3s ease 0s;
 }
 
-.nav_links li a:hover {
+.nav_links li a:hover{
     color: #0088a9;
+    font-size: 24px;
 }
 
 .hplink a{
     transition: all 0.3s ease 0s;
 }
-.hplink a:hover {
+.hplink a:hover{
     color: #0088a9;
+    font-size: 24px;
+}
+
+.nav-break{
+    border-color: #edf0f1;
+    color: #edf0f1;
+    background-color: #edf0f1;
+    height: 2px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.info{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #edf0f1;
+    text-align: center;
+    margin-top: 15px;
+
 }
