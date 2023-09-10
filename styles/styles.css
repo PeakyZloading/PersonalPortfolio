@@ -71,7 +71,8 @@ header{
 .projects > li{
     margin-bottom: 50px;
 }
-.projects > li > span{
+.projects > li > span > a{
+    font-size: 25px;
     text-decoration: underline;
 }
 
@@ -84,4 +85,21 @@ header{
 
 .points > li{
     margin-bottom: 20px;
+}
+
+.techLogos{
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+}
+
+.techLogos:hover{
+    transition: all 0.1s ease 0s;
+    transform: scale(1.5);
+}
+
+.points li:hover{
+    font-size: 25px;
+    transition: all 0.1s ease 0s;
+    color: #0088a9;
 }
