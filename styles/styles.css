@@ -182,4 +182,60 @@ footer > *{
     margin-top: 100px;
 }
 
+#about-me-header{
+    text-align: center;
+    color: #edf0f1;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 35px;
+    margin: 25px;
+}
+
+.categories{
+    list-style: none;
+    margin-left: 50px;
+}
+
+.categories > li{
+    margin-bottom: 50px;
+}
+
+.categories-title{
+    font-size: 24px;
+    color:#dedc34
+}
+
+.categories-title:hover{
+    font-size: 30px;
+    transition: all 0.3s ease 0s;
+
+}
+
+.main-point > li{
+    list-style-type: disc;
+    margin-left: 20px;
+    margin-right: 25px;
+    margin-top: 20px;
+}
+
+.sub-points{
+    list-style-type: disc;
+    margin-top: 10px;
+    margin-left: 25px;
+}
+
+.sub-points > li{
+    margin-bottom: 8px;
+}
+
+.sub-points > li:hover{
+    font-size: 25px;
+    transition: all 0.3s ease 0s;
+}
+
+#resume-link{
+    color: #50e130;
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+
 
