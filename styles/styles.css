@@ -145,3 +145,41 @@ footer > *{
     background-color: #1b1b1f;
 }
 
+.contact-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 20%;
+}
+
+.contact img{
+    height: 225px;
+    width: 225px;
+}
+
+#contact-header{
+    text-align: center;
+    color: #edf0f1;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 35px;
+    margin: 25px;
+}
+
+.contact-text{
+    text-align: center;
+    color: #edf0f1;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    max-width: 225px;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+#thanking-user{
+    text-align: center;
+    color: #edf0f1;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+
