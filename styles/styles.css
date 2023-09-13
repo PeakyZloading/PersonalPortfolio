@@ -258,10 +258,32 @@ footer > *{
     text-align: center;
 }
 
-.image-container img{
-    margin-top: 150px;
-    margin-right: 50px;
-    margin-bottom: 75px;
+.project-pics-container-portrait{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: space-between;
+}
+
+.project-pics-container-portrait > img{
+    max-height: 350px;
+    max-width: 350px;
+    margin-top: 15px;
+    margin-right:auto
+}
+
+.project-pics-container-landscape{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: space-between;
+}
+
+.project-pics-container-landscape > img{
+    height: 200px;
+    width: 300px;
+    margin-top: 15px;
+    margin-right: auto;
 }
 
 
