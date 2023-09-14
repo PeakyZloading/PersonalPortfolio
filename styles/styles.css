@@ -258,6 +258,12 @@ footer > *{
     text-align: center;
 }
 
+.image-container img{
+    margin-top: 150px;
+    margin-right: 50px;
+    margin-bottom: 75px;
+}
+
 .project-pics-container-portrait{
     display: flex;
     flex-direction: row;
