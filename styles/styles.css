@@ -271,7 +271,8 @@ footer > *{
     max-height: 350px;
     max-width: 350px;
     margin-top: 20px;
-    margin-right:auto
+    margin-bottom: 10px;
+    margin-right: auto;
 }
 
 .project-pics-container-landscape{
@@ -285,7 +286,12 @@ footer > *{
     height: 200px;
     width: 300px;
     margin-top: 15px;
+    margin-bottom: 10px;
     margin-right: auto;
+}
+
+#proj-links{
+    margin-top: 30px;
 }
 
 
